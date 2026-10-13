@@ -1,0 +1,47 @@
+{
+	"name": "demarker",
+	"version": "0.1.1",
+	"description": "Identify what an AI image carries, then clean it, from the terminal. CLI for demarker.io.",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AIDemarker/demarker.git",
+		"directory": "packages/cli"
+	},
+	"bugs": {
+		"url": "https://github.com/AIDemarker/demarker/issues"
+	},
+	"type": "module",
+	"bin": {
+		"demarker": "./dist/cli.js"
+	},
+	"files": [
+		"dist",
+		"README.md"
+	],
+	"engines": {
+		"node": ">=20"
+	},
+	"homepage": "https://demarker.io/developers",
+	"keywords": [
+		"demarker",
+		"ai-watermark",
+		"synthid",
+		"c2pa",
+		"image",
+		"cli"
+	],
+	"scripts": {
+		"build": "tsc -p tsconfig.build.json && node -e \"const f='dist/cli.js',fs=require('fs');fs.chmodSync(f,0o755)\"",
+		"type-check": "tsc --noEmit",
+		"test": "node --test \"src/**/*.test.ts\"",
+		"clean": "rm -rf dist"
+	},
+	"dependencies": {
+		"@demarker/client": "workspace:*"
+	},
+	"devDependencies": {
+		"@types/node": "^24.10.1",
+		"typescript": "5.9.3"
+	}
+}

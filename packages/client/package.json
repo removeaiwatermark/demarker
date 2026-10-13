@@ -1,0 +1,48 @@
+{
+	"name": "@demarker/client",
+	"version": "0.1.1",
+	"description": "Typed client for the Demarker API: identify what an AI image carries, then clean it.",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AIDemarker/demarker.git",
+		"directory": "packages/client"
+	},
+	"bugs": {
+		"url": "https://github.com/AIDemarker/demarker/issues"
+	},
+	"type": "module",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"default": "./dist/index.js"
+		}
+	},
+	"files": [
+		"dist",
+		"README.md"
+	],
+	"engines": {
+		"node": ">=20"
+	},
+	"homepage": "https://demarker.io/developers",
+	"keywords": [
+		"demarker",
+		"ai-watermark",
+		"synthid",
+		"image",
+		"api-client"
+	],
+	"scripts": {
+		"build": "tsc -p tsconfig.build.json",
+		"type-check": "tsc --noEmit",
+		"test": "node --test \"src/**/*.test.ts\"",
+		"clean": "rm -rf dist"
+	},
+	"devDependencies": {
+		"@types/node": "^24.10.1",
+		"typescript": "5.9.3"
+	}
+}

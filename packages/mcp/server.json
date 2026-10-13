@@ -1,0 +1,34 @@
+{
+	"$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+	"name": "io.demarker/mcp",
+	"title": "Demarker",
+	"description": "Identify what an AI image carries (marks, metadata, watermarks), then clean it.",
+	"websiteUrl": "https://demarker.io/developers",
+	"repository": {
+		"url": "https://github.com/AIDemarker/demarker",
+		"source": "github",
+		"subfolder": "packages/mcp"
+	},
+	"version": "0.1.1",
+	"packages": [
+		{
+			"registryType": "npm",
+			"identifier": "@demarker/mcp",
+			"version": "0.1.1",
+			"transport": { "type": "stdio" },
+			"environmentVariables": [
+				{
+					"name": "DEMARKER_API_KEY",
+					"description": "Optional. Needed to clean images and read balance. Create one at https://demarker.io/app/settings/api",
+					"isRequired": false,
+					"isSecret": true
+				},
+				{
+					"name": "DEMARKER_MCP_MAX_CREDITS",
+					"description": "Optional. Hard ceiling on credits one clean call may spend. Default 2.",
+					"isRequired": false
+				}
+			]
+		}
+	]
+}
