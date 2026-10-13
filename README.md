@@ -1,6 +1,6 @@
 # Demarker agent tools
 
-Open-source client, CLI, MCP server and agent skill for [Demarker](https://demarker.io): see what an AI-generated image carries (visible marks, AI metadata, inferred hidden watermarks such as SynthID), then clean your own images.
+Open-source client, CLI, MCP server and agent skill for [Demarker](https://demarker.io): see and remove what an AI generated image have hidden in them (visible marks, AI metadata, inferred hidden watermarks such as SynthID), then remove them!
 
 Scanning is free and needs no account. Cleaning needs an API key and credits, and the person using it confirms a rights statement each time.
 
