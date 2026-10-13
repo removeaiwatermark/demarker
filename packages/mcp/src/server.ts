@@ -3,7 +3,7 @@ import { DemarkerClient } from "@demarker/client";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { createDemarkerServer } from "./tools.ts";
 
-const VERSION = "0.1.1";
+const VERSION = "0.1.2";
 
 const ceiling = Number(process.env.DEMARKER_MCP_MAX_CREDITS ?? 2);
 const client = new DemarkerClient({

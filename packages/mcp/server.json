@@ -5,16 +5,16 @@
 	"description": "Identify what an AI image carries (marks, metadata, watermarks), then clean it.",
 	"websiteUrl": "https://demarker.io/developers",
 	"repository": {
-		"url": "https://github.com/AIDemarker/demarker",
+		"url": "https://github.com/removeaiwatermark/demarker",
 		"source": "github",
 		"subfolder": "packages/mcp"
 	},
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"packages": [
 		{
 			"registryType": "npm",
 			"identifier": "@demarker/mcp",
-			"version": "0.1.1",
+			"version": "0.1.2",
 			"transport": { "type": "stdio" },
 			"environmentVariables": [
 				{

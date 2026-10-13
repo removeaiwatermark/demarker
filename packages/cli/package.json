@@ -1,15 +1,15 @@
 {
 	"name": "demarker",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "Identify what an AI image carries, then clean it, from the terminal. CLI for demarker.io.",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/AIDemarker/demarker.git",
+		"url": "git+https://github.com/removeaiwatermark/demarker.git",
 		"directory": "packages/cli"
 	},
 	"bugs": {
-		"url": "https://github.com/AIDemarker/demarker/issues"
+		"url": "https://github.com/removeaiwatermark/demarker/issues"
 	},
 	"type": "module",
 	"bin": {

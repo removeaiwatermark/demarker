@@ -19,7 +19,7 @@ import {
 import { EXIT, exitCodeFor, UsageError } from "./exit.ts";
 import { detectExt, outputPathFor } from "./files.ts";
 
-const VERSION = "0.1.1";
+const VERSION = "0.1.2";
 
 const HELP = `demarker ${VERSION} - identify what an AI image carries, then clean it
 

@@ -9,7 +9,7 @@ Scanning is free and needs no account. Cleaning needs an API key and credits, an
 | [`demarker`](packages/cli) | CLI: `npx demarker identify image.png` |
 | [`@demarker/mcp`](packages/mcp) | MCP server for Claude, Cursor, VS Code and others |
 | [`@demarker/client`](packages/client) | Typed API client (no runtime dependencies) |
-| [`skills/demarker`](skills/demarker/SKILL.md) | Agent skill: `npx skills add AIDemarker/demarker` |
+| [`skills/demarker`](skills/demarker/SKILL.md) | Agent skill: `npx skills add removeaiwatermark/demarker` |
 
 ## Quick start
 

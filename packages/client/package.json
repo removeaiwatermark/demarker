@@ -1,15 +1,15 @@
 {
 	"name": "@demarker/client",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "Typed client for the Demarker API: identify what an AI image carries, then clean it.",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/AIDemarker/demarker.git",
+		"url": "git+https://github.com/removeaiwatermark/demarker.git",
 		"directory": "packages/client"
 	},
 	"bugs": {
-		"url": "https://github.com/AIDemarker/demarker/issues"
+		"url": "https://github.com/removeaiwatermark/demarker/issues"
 	},
 	"type": "module",
 	"main": "./dist/index.js",
